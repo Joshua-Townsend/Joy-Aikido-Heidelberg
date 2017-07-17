@@ -1,0 +1,119 @@
+body
+{
+  float: left;
+  font-family: 'Arial';
+  padding-right: 200;
+  background-image: url("../images/pic_backgrounddove2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-position: static;
+	overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.menu
+{
+  float: left;
+  position: Fixed;
+  z-index: 10000;
+  list-style-type: none;
+  font-size: 10pt;
+  padding-left: 0;
+  padding-top: 5px;
+  top: 9%;
+  margin: 0;
+}
+
+.menu li
+{
+  margin-top: 3px;
+  padding: 2px 3px;
+  border: 1px solid #aaa;
+  background-color: #a9c0e5;
+}
+
+.menu li a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.menu li:hover
+{
+  background-color: #aaf;
+  cursor: pointer;
+}
+
+.main
+{
+	margin-left: 180px;
+	margin-right: 156px;
+}
+
+.title
+{
+	
+}
+
+.heading
+{
+	
+}
+
+.tex
+{
+	
+}
+
+#banner
+{
+	padding-left: 165px;
+}
+
+#footer_dove
+{
+    width: 151px;
+    height: 184px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.65;
+	filter: alpha(opacity=65);
+	padding-left: 200;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#tabl1 {
+	color: #0a48aa;
+	border-color: purple;
+}
+
+#tabl2 {
+	color: black;
+	border-color: orange;
+}
+
+#tabl3 {
+	color: black;
+	border-top-color: red;
+	border-right-color: green;
+	border-bottom-color: red;
+	border-left-color: green;
+}}
